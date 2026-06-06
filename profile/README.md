@@ -75,8 +75,8 @@ Every node is auto-generated from OpenAPI specifications — ensuring complete A
 
 <div align="center">
 
-![Org repo count](https://img.shields.io/github/repo-count/n8n-code?style=flat&logo=github)
-![Org stars](https://img.shields.io/github/stars/n8n-code?style=flat)
+![Org repo count](https://img.shields.io/badge/repos-6-blue?style=flat&logo=github)
+![Org stars](https://img.shields.io/badge/stars-0-yellow?style=flat&logo=github)
 
 </div>
 
