@@ -26,13 +26,7 @@ Every node is auto-generated from OpenAPI specifications — ensuring complete A
 
 ## 🏗️ How It Works
 
-```
-┌─────────────┐     ┌──────────────────┐     ┌──────────────┐
-│  OpenAPI    │────▶│  n8n-openapi-    │────▶│  n8n         │
-│  Spec       │     │  node-ultimate   │     │  Community   │
-│  (JSON/YAML)│     │  (code gen)      │     │  Node        │
-└─────────────┘     └──────────────────┘     └──────────────┘
-```
+![n8n-code Pipeline](diagram.png)
 
 1. **Define** — We start with the API's OpenAPI/Swagger specification
 2. **Generate** — [`@kelvinzer0/n8n-openapi-node-ultimate`](https://github.com/kelvinzer0/n8n-openapi-node-ultimate) auto-generates the n8n node code

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1584 396" width="1584" height="396">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="openapiGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#6BA539;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a7a28;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="genGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3178C6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#235a97;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="n8nGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8B400;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d99b00;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+    <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="12" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#8b949e"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1584" height="396" rx="16" fill="url(#bgGrad)"/>
+
+  <!-- Subtle grid pattern -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#21262d" stroke-width="0.5"/>
+  </pattern>
+  <rect width="1584" height="396" rx="16" fill="url(#grid)" opacity="0.4"/>
+
+  <!-- Box 1: OpenAPI Spec -->
+  <g filter="url(#shadow)">
+    <rect x="80" y="100" width="340" height="196" rx="14" fill="#161b22" stroke="#6BA539" stroke-width="2.5"/>
+    <rect x="80" y="100" width="340" height="48" rx="14" fill="url(#openapiGrad)"/>
+    <rect x="80" y="136" width="340" height="12" fill="url(#openapiGrad)"/>
+    <text x="250" y="132" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#fff" text-anchor="middle">OpenAPI Spec</text>
+    <text x="250" y="185" font-family="monospace" font-size="14" fill="#8b949e" text-anchor="middle">swagger.json</text>
+    <text x="250" y="208" font-family="monospace" font-size="14" fill="#8b949e" text-anchor="middle">openapi.yaml</text>
+    <text x="250" y="260" font-family="Arial, sans-serif" font-size="13" fill="#6BA539" text-anchor="middle">Define your API once</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <line x1="430" y1="198" x2="540" y2="198" stroke="#8b949e" stroke-width="3" marker-end="url(#arrowhead)" stroke-dasharray="8,4"/>
+  <text x="485" y="185" font-family="Arial, sans-serif" font-size="13" fill="#8b949e" text-anchor="middle">define</text>
+
+  <!-- Box 2: n8n-openapi-node-ultimate -->
+  <g filter="url(#shadow)">
+    <rect x="550" y="70" width="484" height="256" rx="14" fill="#161b22" stroke="#3178C6" stroke-width="2.5"/>
+    <rect x="550" y="70" width="484" height="48" rx="14" fill="url(#genGrad)"/>
+    <rect x="550" y="106" width="484" height="12" fill="url(#genGrad)"/>
+    <text x="792" y="102" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">n8n-openapi-node-ultimate</text>
+    <text x="792" y="165" font-family="Arial, sans-serif" font-size="36" text-anchor="middle">⚙️</text>
+    <text x="792" y="205" font-family="Arial, sans-serif" font-size="15" fill="#8b949e" text-anchor="middle">Automatic code generation from any OpenAPI spec</text>
+    <text x="792" y="235" font-family="monospace" font-size="13" fill="#58a6ff" text-anchor="middle">@kelvinzer0/n8n-openapi-node-ultimate</text>
+    <text x="792" y="270" font-family="Arial, sans-serif" font-size="13" fill="#7ee787" text-anchor="middle">TypeScript • Node.js • npm</text>
+    <text x="792" y="300" font-family="Arial, sans-serif" font-size="13" fill="#6BA539" text-anchor="middle">Complete • Consistent • Fast • Maintainable</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <line x1="1044" y1="198" x2="1154" y2="198" stroke="#8b949e" stroke-width="3" marker-end="url(#arrowhead)" stroke-dasharray="8,4"/>
+  <text x="1099" y="185" font-family="Arial, sans-serif" font-size="13" fill="#8b949e" text-anchor="middle">generate</text>
+
+  <!-- Box 3: n8n Community Node -->
+  <g filter="url(#shadow)">
+    <rect x="1164" y="100" width="340" height="196" rx="14" fill="#161b22" stroke="#F8B400" stroke-width="2.5"/>
+    <rect x="1164" y="100" width="340" height="48" rx="14" fill="url(#n8nGrad)"/>
+    <rect x="1164" y="136" width="340" height="12" fill="url(#n8nGrad)"/>
+    <text x="1334" y="132" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#000" text-anchor="middle">n8n Community Node</text>
+    <text x="1334" y="185" font-family="Arial, sans-serif" font-size="26" text-anchor="middle">🔌</text>
+    <text x="1334" y="220" font-family="Arial, sans-serif" font-size="14" fill="#8b949e" text-anchor="middle">npm publish → Production ready</text>
+    <text x="1334" y="260" font-family="Arial, sans-serif" font-size="13" fill="#F8B400" text-anchor="middle">Install in n8n &amp; automate</text>
+  </g>
+
+  <!-- Title -->
+  <text x="792" y="45" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#c9d1d9" text-anchor="middle">n8n-code Pipeline</text>
+  <text x="792" y="375" font-family="Arial, sans-serif" font-size="14" fill="#484f58" text-anchor="middle">Auto-generated n8n community nodes from OpenAPI specifications — built with ❤️ for the n8n community</text>
+</svg>
