@@ -75,7 +75,7 @@ Every node is auto-generated from OpenAPI specifications — ensuring complete A
 
 <div align="center">
 
-![Org repo count](https://img.shields.io/github/repo-count/n8n-code?style=flat)
+![Org repo count](https://img.shields.io/badge/repos-10+-blue?style=flat&logo=github)
 ![Org stars](https://img.shields.io/github/stars/n8n-code?style=flat)
 
 </div>
@@ -100,7 +100,7 @@ Each node repo has its own `CONTRIBUTING.md` with specific guidelines.
 <div align="center">
 
 [![GitHub Issues](https://img.shields.io/github/issues/n8n-code/n8n-nodes-evolution?style=flat&logo=github)](https://github.com/n8n-code/n8n-nodes-evolution/issues)
-[![GitHub Discussions](https://img.shields.io/github/discussions/n8n-code?style=flat&logo=github)](https://github.com/n8n-code)
+[![Discord](https://img.shields.io/discord/1512617555326664874?style=flat&logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gg/ptDZ8e4h93)
 
 </div>
 
